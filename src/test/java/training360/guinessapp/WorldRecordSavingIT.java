@@ -9,8 +9,8 @@ import org.springframework.test.context.jdbc.Sql;
 import org.zalando.problem.Problem;
 import org.zalando.problem.Status;
 import training360.guinessapp.dto.RecorderCreateCommand;
-import training360.guinessapp.dto.RecorderDto;
 import training360.guinessapp.dto.WorldRecordCreateCommand;
+import training360.guinessapp.dto.RecorderDto;
 import training360.guinessapp.dto.WorldRecordDto;
 
 import java.time.LocalDate;

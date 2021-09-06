@@ -1,4 +1,4 @@
-package training360.giunessapp;
+package training360.guinessapp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.modelmapper.ModelMapper;
@@ -15,8 +15,8 @@ public class GuinessApplication {
     }
 
     @Bean
-    ObjectMapper objectMapper() {
-
+    public ObjectMapper objectMapper(){
+        return new ObjectMapper().findAndRegisterModules();
     }
 
     public static void main(String[] args) {
